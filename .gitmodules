@@ -1,0 +1,12 @@
+[submodule "git-vim"]
+	path = bundle/git-vim
+	url = git://github.com/motemen/git-vim.git
+[submodule "command-t"]
+	path = bundle/command-t
+	url = git://git.wincent.com/command-t.git
+[submodule "vim-haskellConceal"]
+	path = bundle/vim-haskellConceal
+	url = git://github.com/Twinside/vim-haskellConceal.git
+[submodule "clang_complete"]
+	path = bundle/clang_complete
+	url = git://github.com/Rip-Rip/clang_complete.git
