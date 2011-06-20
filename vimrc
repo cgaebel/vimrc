@@ -60,7 +60,8 @@ map <C-l> <C-w>l
 
 nmap <silent> ,/ :nohlsearch<CR>
 
-nnoremap <leader>q :q<CR>
+nnoremap q ZZ<Enter>
+nnoremap Q :q!<Enter>
 
 nnoremap j gj
 nnoremap k gk
