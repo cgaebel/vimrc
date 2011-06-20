@@ -66,6 +66,12 @@ nnoremap Q :q!<Enter>
 nnoremap j gj
 nnoremap k gk
 
+" Swap implementations of ` and ' jump to markers
+" By default, ' jumps to the marked line, ` jumps to the marked line and
+" column, so swap them
+nnoremap ' `
+nnoremap ` '
+
 nmap <leader>y "+y
 nmap <leader>Y "+yy
 nmap <leader>p "+p
